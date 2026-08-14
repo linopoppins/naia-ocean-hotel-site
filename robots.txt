@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://naia-ocean-hotel.example/sitemap.xml
