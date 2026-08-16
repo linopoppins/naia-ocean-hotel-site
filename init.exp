@@ -1,0 +1,24 @@
+#!/usr/bin/expect -f
+set timeout 90
+log_user 1
+spawn /tmp/naia-site-repo/run-netlify.sh
+
+expect {
+    "What would you like to do?" {
+        send "\r"
+        exp_continue
+    }
+    "build command" {
+        send "\r"
+        exp_continue
+    }
+    "Directory to deploy" {
+        send ".\r"
+        exp_continue
+    }
+    "Netlify functions folder" {
+        send "\r"
+        exp_continue
+    }
+    eof
+}
