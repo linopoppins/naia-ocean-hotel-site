@@ -1,14 +1,16 @@
-[
-  {
-    "dates": "12 – 22 Nov 2026",
-    "nights": "10 nights · start of season",
-    "price": 900,
-    "wasPrice": 990
-  },
-  {
-    "dates": "26 Dec 2026 – 6 Jan 2027",
-    "nights": "11 nights · New Year camp",
-    "price": 900,
-    "wasPrice": 990
-  }
-]
+{
+  "camps": [
+    {
+      "dates": "12 – 22 Nov 2026",
+      "nights": "10 nights · start of season",
+      "price": 900,
+      "wasPrice": 990
+    },
+    {
+      "dates": "26 Dec 2026 – 6 Jan 2027",
+      "nights": "11 nights · New Year camp",
+      "price": 900,
+      "wasPrice": 990
+    }
+  ]
+}
