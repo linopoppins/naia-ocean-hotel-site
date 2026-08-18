@@ -1,0 +1,51 @@
+<header class="nav" data-screen-label="{{ screenLabel }}">
+  <div class="nav__inner">
+    <a href="index.html" class="brand" aria-label="Naia Ocean Hotel, home">
+      <img src="assets/images/logo-naia-transparent.png" class="brand__logo" alt="Na&iuml;a Ocean House" width="90" height="90">
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="rooms.html" data-i18n="nav.rooms"{% if activePage == "rooms" %} class="is-active"{% endif %}>Rooms</a>
+      <a href="surf.html" data-i18n="nav.surf"{% if activePage == "surf" %} class="is-active"{% endif %}>Surf</a>
+      <a href="surfcamp.html" data-i18n="nav.surfcamp"{% if activePage == "surfcamp" %} class="is-active"{% endif %}>Surf Camp</a>
+      <a href="host-your-retreat.html" data-i18n="nav.retreat"{% if activePage == "host-your-retreat" %} class="is-active"{% endif %}>Host Your Retreat</a>
+      <a href="yoga.html" data-i18n="nav.yoga"{% if activePage == "yoga" %} class="is-active"{% endif %}>Yoga</a>
+      <a href="about.html" data-i18n="nav.about"{% if activePage == "about" %} class="is-active"{% endif %}>About</a>
+      <a href="contact.html" data-i18n="nav.contact"{% if activePage == "contact" %} class="is-active"{% endif %}>Contact</a>
+    </nav>
+    <div class="nav__right">
+      {% if showCurrency %}
+      <div class="curr">
+        <button class="curr__btn" type="button" aria-label="Change currency"><span data-curr-current>EUR</span><svg viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="curr__menu" data-curr-menu><div class="curr__note" data-curr-updated>Estimated conversion</div></div>
+      </div>
+      {% endif %}
+      <div class="lang">
+        <button class="lang__btn" type="button" aria-label="Change language">
+          <span data-lang-current>EN</span>
+          <svg viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="lang__menu" data-lang-menu></div>
+      </div>
+      <a href="book.html" class="btn btn--primary btn--sm" data-i18n="nav.book">Book now</a>
+      <button class="nav__toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ MOBILE DRAWER ============ -->
+<div class="drawer">
+  <div class="drawer__scrim" data-drawer-close></div>
+  <div class="drawer__panel">
+    <button class="drawer__close" data-drawer-close aria-label="Close menu">&times;</button>
+    <nav class="drawer__links">
+      <a href="rooms.html" data-drawer-close data-i18n="nav.rooms">Rooms</a>
+      <a href="surf.html" data-drawer-close data-i18n="nav.surf">Surf</a>
+      <a href="surfcamp.html" data-drawer-close data-i18n="nav.surfcamp">Surf Camp</a>
+      <a href="host-your-retreat.html" data-drawer-close data-i18n="nav.retreat">Host Your Retreat</a>
+      <a href="yoga.html" data-drawer-close data-i18n="nav.yoga">Yoga</a>
+      <a href="about.html" data-drawer-close data-i18n="nav.about">About</a>
+      <a href="contact.html" data-drawer-close data-i18n="nav.contact">Contact</a>
+      <a href="book.html" data-drawer-close data-i18n="nav.book">Book now</a>
+    </nav>
+  </div>
+</div>

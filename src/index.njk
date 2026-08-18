@@ -1,140 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Naia Ocean Hotel, Surf & Yoga Guest House · Midigama, Sri Lanka</title>
-<meta name="description" content="A small surf & yoga guest house on Sri Lanka's south coast. Wake to the surf, practice yoga at sunrise, and let the days run on ocean time.">
-<link rel="canonical" href="https://naia-ocean-hotel.example/index.html">
-<link rel="icon" href="assets/images/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+---
+layout: base.njk
+title: "Naia Ocean Hotel, Surf & Yoga Guest House · Midigama, Sri Lanka"
+description: "A small surf & yoga guest house on Sri Lanka's south coast. Wake to the surf, practice yoga at sunrise, and let the days run on ocean time."
+ogTitle: "Naia Ocean Hotel, Surf & Yoga · Midigama"
+ogDescription: "Where the ocean is fifty metres away. A small surf & yoga house on Sri Lanka's south coast."
+ogImage: "https://images.unsplash.com/photo-1517053589573-a5473fadffbd?fm=webp&q=80&w=1200&auto=format&fit=crop"
+activePage: "index"
+screenLabel: "Home"
+showCurrency: true
+extraHead: |
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    "name": "Naia Ocean Hotel",
+    "alternateName": "Naïa Ocean House",
+    "description": "A small surf & yoga guest house on Sri Lanka's south coast, steps from the Lazy Right break in Midigama.",
+    "url": "https://naia-ocean-hotel.example/index.html",
+    "image": "https://images.unsplash.com/photo-1517053589573-a5473fadffbd?fm=webp&q=80&w=1200&auto=format&fit=crop",
+    "email": "hello@naiaocean.com",
+    "priceRange": "€22–€35",
+    "areaServed": {
+      "@type": "Place",
+      "name": "Midigama, Sri Lanka"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Midigama",
+      "addressRegion": "Southern Province",
+      "addressCountry": "LK"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 5.9739,
+      "longitude": 80.3897
+    },
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Private kitchenette in every room"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Private bathroom in every room"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Free WiFi"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "On-site surf coaching & board rental"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Rooftop yoga shala"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Garden with ocean view"
+      }
+    ]
+  }
+  </script>
+permalink: "/index.html"
+heroTitle: "Where the ocean is <em>fifty metres</em> away."
+heroSubtitle: "A small surf & yoga house on Sri Lanka's south coast, built for people who came to ride, breathe, and let the days run on ocean time."
+---
 
-<meta property="og:title" content="Naia Ocean Hotel, Surf & Yoga · Midigama">
-<meta property="og:description" content="Where the ocean is fifty metres away. A small surf & yoga house on Sri Lanka's south coast.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://naia-ocean-hotel.example/index.html">
-<meta property="og:site_name" content="Naia Ocean Hotel">
-<meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://images.unsplash.com/photo-1517053589573-a5473fadffbd?fm=webp&q=80&w=1200&auto=format&fit=crop">
-<meta property="og:image:alt" content="Naia Ocean Hotel, Surf & Yoga Guest House · Midigama, Sri Lanka">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Naia Ocean Hotel, Surf & Yoga Guest House · Midigama, Sri Lanka">
-<meta name="twitter:description" content="A small surf & yoga guest house on Sri Lanka's south coast. Wake to the surf, practice yoga at sunrise, and let the days run on ocean time.">
-<meta name="twitter:image" content="https://images.unsplash.com/photo-1517053589573-a5473fadffbd?fm=webp&q=80&w=1200&auto=format&fit=crop">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Dancing+Script:wght@500;600&display=swap">
-<link rel="preconnect" href="https://open.er-api.com">
-<link rel="stylesheet" href="assets/styles.css">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LodgingBusiness",
-  "name": "Naia Ocean Hotel",
-  "alternateName": "Naïa Ocean House",
-  "description": "A small surf & yoga guest house on Sri Lanka's south coast, steps from the Lazy Right break in Midigama.",
-  "url": "https://naia-ocean-hotel.example/index.html",
-  "image": "https://images.unsplash.com/photo-1517053589573-a5473fadffbd?fm=webp&q=80&w=1200&auto=format&fit=crop",
-  "email": "hello@naiaocean.com",
-  "priceRange": "€22–€35",
-  "areaServed": {
-    "@type": "Place",
-    "name": "Midigama, Sri Lanka"
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Midigama",
-    "addressRegion": "Southern Province",
-    "addressCountry": "LK"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 5.9739,
-    "longitude": 80.3897
-  },
-  "amenityFeature": [
-    {
-      "@type": "LocationFeatureSpecification",
-      "name": "Private kitchenette in every room"
-    },
-    {
-      "@type": "LocationFeatureSpecification",
-      "name": "Private bathroom in every room"
-    },
-    {
-      "@type": "LocationFeatureSpecification",
-      "name": "Free WiFi"
-    },
-    {
-      "@type": "LocationFeatureSpecification",
-      "name": "On-site surf coaching & board rental"
-    },
-    {
-      "@type": "LocationFeatureSpecification",
-      "name": "Rooftop yoga shala"
-    },
-    {
-      "@type": "LocationFeatureSpecification",
-      "name": "Garden with ocean view"
-    }
-  ]
-}
-</script>
-</head>
-<body>
-
-<!-- ============ NAV ============ -->
-<header class="nav" data-screen-label="Home">
-  <div class="nav__inner">
-    <a href="index.html" class="brand" aria-label="Naia Ocean Hotel, home">
-      <img src="assets/images/logo-naia-transparent.png" class="brand__logo" alt="Na&#239;a Ocean House" width="90" height="90">
-    </a>
-    <nav class="nav__links" aria-label="Primary">
-      <a href="rooms.html" data-i18n="nav.rooms">Rooms</a>
-      <a href="surf.html" data-i18n="nav.surf">Surf</a>
-      <a href="surfcamp.html" data-i18n="nav.surfcamp">Surf Camp</a>
-      <a href="host-your-retreat.html" data-i18n="nav.retreat">Host Your Retreat</a>
-      <a href="yoga.html" data-i18n="nav.yoga">Yoga</a>
-      <a href="about.html" data-i18n="nav.about">About</a>
-      <a href="contact.html" data-i18n="nav.contact">Contact</a>
-    </nav>
-    <div class="nav__right">
-      <div class="curr">
-        <button class="curr__btn" type="button" aria-label="Change currency"><span data-curr-current>EUR</span><svg viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-        <div class="curr__menu" data-curr-menu><div class="curr__note" data-curr-updated>Estimated conversion</div></div>
-      </div>
-      <div class="lang">
-        <button class="lang__btn" type="button" aria-label="Change language">
-          <span data-lang-current>EN</span>
-          <svg viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
-        <div class="lang__menu" data-lang-menu></div>
-      </div>
-      <a href="book.html" class="btn btn--primary btn--sm" data-i18n="nav.book">Book now</a>
-      <button class="nav__toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
-    </div>
-  </div>
-</header>
-
-<!-- ============ MOBILE DRAWER ============ -->
-<div class="drawer">
-  <div class="drawer__scrim" data-drawer-close></div>
-  <div class="drawer__panel">
-    <button class="drawer__close" data-drawer-close aria-label="Close menu">&times;</button>
-    <nav class="drawer__links">
-      <a href="rooms.html" data-drawer-close data-i18n="nav.rooms">Rooms</a>
-      <a href="surf.html" data-drawer-close data-i18n="nav.surf">Surf</a>
-      <a href="surfcamp.html" data-drawer-close data-i18n="nav.surfcamp">Surf Camp</a>
-      <a href="host-your-retreat.html" data-drawer-close data-i18n="nav.retreat">Host Your Retreat</a>
-      <a href="yoga.html" data-drawer-close data-i18n="nav.yoga">Yoga</a>
-      <a href="about.html" data-drawer-close data-i18n="nav.about">About</a>
-      <a href="contact.html" data-drawer-close data-i18n="nav.contact">Contact</a>
-      <a href="book.html" data-drawer-close data-i18n="nav.book">Book now</a>
-    </nav>
-  </div>
-</div>
 
 <!-- ============ HERO ============ -->
 <section class="hero">
@@ -145,8 +78,8 @@
     <img src="assets/images/logo-naia-transparent.png" alt="Na&iuml;a Ocean House">
   </div>
   <div class="hero__inner">
-    <h1 data-i18n="home.hero.title">Where the ocean is <em>fifty metres</em> away.</h1>
-    <p class="hero__sub" data-i18n="home.hero.sub">A small surf &amp; yoga house on Sri Lanka's south coast, built for people who came to ride, breathe, and let the days run on ocean time.</p>
+    <h1 data-i18n="home.hero.title">{{ heroTitle | safe }}</h1>
+    <p class="hero__sub" data-i18n="home.hero.sub">{{ heroSubtitle }}</p>
     <div class="hero__cta">
       <a href="book.html" class="btn btn--primary" data-i18n="cta.book">Book your stay</a>
       <a href="rooms.html" class="btn btn--light" data-i18n="cta.allRooms">See all rooms</a>
@@ -219,7 +152,7 @@
         <div class="room__body">
           <div class="room__head">
             <h3 data-i18n="room.ocean.name">Deluxe Sea View</h3>
-            <span class="room__price"><span data-price="35">€35</span><small data-i18n="common.perNight">/ night</small></span>
+            <span class="room__price"><span data-price="{{ rooms[0].price }}">&euro;{{ rooms[0].price }}</span><small data-i18n="common.perNight">/ night</small></span>
           </div>
           <p class="room__desc" data-i18n="room.ocean.desc">The biggest room in the house. Vaulted ceiling, oversized bed, and a terrace where the sea fills your horizon before your coffee goes cold.</p>
           <div class="room__foot">
@@ -236,7 +169,7 @@
         <div class="room__body">
           <div class="room__head">
             <h3 data-i18n="room.garden.name">Garden Double</h3>
-            <span class="room__price"><span data-price="33">€33</span><small data-i18n="common.perNight">/ night</small></span>
+            <span class="room__price"><span data-price="{{ rooms[1].price }}">&euro;{{ rooms[1].price }}</span><small data-i18n="common.perNight">/ night</small></span>
           </div>
           <p class="room__desc" data-i18n="room.garden.desc">Tucked behind the garden, cooler and quieter than the rest. A double bed, a private terrace onto the greenery, and a rhythm entirely your own.</p>
           <div class="room__foot">
@@ -253,7 +186,7 @@
         <div class="room__body">
           <div class="room__head">
             <h3 data-i18n="room.surfer.name">Economy Twin</h3>
-            <span class="room__price"><span data-price="22">€22</span><small data-i18n="common.perNight">/ night</small></span>
+            <span class="room__price"><span data-price="{{ rooms[5].price }}">&euro;{{ rooms[5].price }}</span><small data-i18n="common.perNight">/ night</small></span>
           </div>
           <p class="room__desc" data-i18n="room.surfer.desc">Simple, honest, exactly what you need. Two beds, a private bathroom, and fifty metres to the surf.</p>
           <div class="room__foot">
@@ -355,60 +288,3 @@
 </section>
 
 <!-- ============ FOOTER ============ -->
-<footer class="footer">
-  <div class="wrap">
-    <div class="footer__top">
-      <div class="footer__brand">
-        <a href="index.html" class="brand">
-          <img src="assets/images/logo-naia-transparent.png" class="brand__logo" alt="Na&#239;a Ocean House" width="90" height="90">
-        </a>
-        <p class="footer__tag" data-i18n="footer.tag">A small house by the sea in Midigama.</p>
-      </div>
-      <div class="footer__col">
-        <h3 data-i18n="footer.explore">Explore</h3>
-        <ul>
-          <li><a href="rooms.html" data-i18n="nav.rooms">Rooms</a></li>
-          <li><a href="surf.html" data-i18n="nav.surf">Surf</a></li><li><a href="surfcamp.html" data-i18n="nav.surfcamp">Surf Camp</a></li><li><a href="host-your-retreat.html" data-i18n="nav.retreat">Host Your Retreat</a></li>
-          <li><a href="yoga.html" data-i18n="nav.yoga">Yoga</a></li>
-          <li><a href="about.html" data-i18n="nav.about">About</a></li>
-        </ul>
-      </div>
-      <div class="footer__col">
-        <h3 data-i18n="footer.stay">Stay</h3>
-        <ul>
-          <li><a href="book.html" data-i18n="nav.book">Book now</a></li>
-          <li><a href="rooms.html" data-i18n="home.rooms.eyebrow">Rooms &amp; rates</a></li>
-          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer__col">
-        <h3 data-i18n="footer.reach">Reach us</h3>
-        <ul>
-          <li>Midigama, Sri Lanka</li>
-          <li><a href="mailto:hello@naiaocean.com">hello@naiaocean.com</a></li>
-          <li><a href="#" data-wa>WhatsApp</a></li>
-        </ul>
-        <div class="footer__social">
-          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg></a>
-          <a href="#" data-wa aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.8 5-1.3A10 10 0 1012 2zm0 18a8 8 0 01-4-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1112 20zm4.4-5.6c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.8 1-.3.2-.5.1a6.5 6.5 0 01-1.9-1.2 7.2 7.2 0 01-1.3-1.7c-.1-.2 0-.4.1-.5l.4-.4.2-.4v-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5a.9.9 0 00-.7.3 2.8 2.8 0 00-.9 2.1 4.9 4.9 0 001 2.6 11 11 0 004.3 3.8c.6.3 1.1.4 1.5.5a3.6 3.6 0 001.6.1 2.7 2.7 0 001.8-1.3 2.2 2.2 0 00.2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a>
-        </div>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <span data-i18n="footer.rights">© 2026 Naia Ocean Hotel, Midigama, Sri Lanka.</span>
-      <span data-i18n="footer.made">Made with salt &amp; sunlight.</span>
-    </div>
-  </div>
-</footer>
-
-<!-- ============ WHATSAPP FLOATING ============ -->
-<a class="wa" data-wa href="#" aria-label="Chat on WhatsApp">
-  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.8 5-1.3A10 10 0 1012 2zm0 18a8 8 0 01-4-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1112 20zm4.4-5.6c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.8 1-.3.2-.5.1a6.5 6.5 0 01-1.9-1.2 7.2 7.2 0 01-1.3-1.7c-.1-.2 0-.4.1-.5l.4-.4.2-.4v-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5a.9.9 0 00-.7.3 2.8 2.8 0 00-.9 2.1 4.9 4.9 0 001 2.6 11 11 0 004.3 3.8c.6.3 1.1.4 1.5.5a3.6 3.6 0 001.6.1 2.7 2.7 0 001.8-1.3 2.2 2.2 0 00.2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>
-  <span class="wa__label" data-i18n="wa.label">Chat with us on WhatsApp</span>
-</a>
-
-<script src="assets/i18n.js"></script>
-<script src="assets/image-slot.js"></script>
-<script src="assets/site.js"></script>
-</body>
-</html>

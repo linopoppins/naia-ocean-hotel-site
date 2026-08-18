@@ -1,0 +1,164 @@
+backend:
+  name: github
+  repo: linopoppins/naia-ocean-hotel-site
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+publish_mode: simple
+media_folder: "assets/images/uploads"
+public_folder: "assets/images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Page text"
+    files:
+      - file: "src/index.njk"
+        label: "Home"
+        name: "index"
+        format: "frontmatter"
+        fields:
+          - { label: "SEO title", name: "title", widget: "string" }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Hero title (can use <em>word</em> for italics)", name: "heroTitle", widget: "string" }
+          - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
+
+      - file: "src/rooms.njk"
+        label: "Rooms & Rates"
+        name: "rooms-page"
+        format: "frontmatter"
+        fields:
+          - { label: "SEO title", name: "title", widget: "string" }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Hero title", name: "heroTitle", widget: "string" }
+          - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
+
+      - file: "src/surf.njk"
+        label: "Surf"
+        name: "surf"
+        format: "frontmatter"
+        fields:
+          - { label: "SEO title", name: "title", widget: "string" }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Hero title", name: "heroTitle", widget: "string" }
+          - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
+
+      - file: "src/surfcamp.njk"
+        label: "Surf Camp"
+        name: "surfcamp"
+        format: "frontmatter"
+        fields:
+          - { label: "SEO title", name: "title", widget: "string" }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Hero title", name: "heroTitle", widget: "string" }
+          - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
+
+      - file: "src/surf-camps-network.njk"
+        label: "Choose Your Camp (Ohana network)"
+        name: "surf-camps-network"
+        format: "frontmatter"
+        fields:
+          - { label: "SEO title", name: "title", widget: "string" }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Hero title", name: "heroTitle", widget: "string" }
+          - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
+
+      - file: "src/host-your-retreat.njk"
+        label: "Host Your Retreat"
+        name: "host-your-retreat"
+        format: "frontmatter"
+        fields:
+          - { label: "SEO title", name: "title", widget: "string" }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Hero title", name: "heroTitle", widget: "string" }
+          - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
+
+      - file: "src/yoga.njk"
+        label: "Yoga"
+        name: "yoga"
+        format: "frontmatter"
+        fields:
+          - { label: "SEO title", name: "title", widget: "string" }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Hero title", name: "heroTitle", widget: "string" }
+          - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
+
+      - file: "src/about.njk"
+        label: "About"
+        name: "about"
+        format: "frontmatter"
+        fields:
+          - { label: "SEO title", name: "title", widget: "string" }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Hero title", name: "heroTitle", widget: "string" }
+          - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
+
+      - file: "src/book.njk"
+        label: "Book"
+        name: "book"
+        format: "frontmatter"
+        fields:
+          - { label: "SEO title", name: "title", widget: "string" }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Hero title", name: "heroTitle", widget: "string" }
+          - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
+
+      - file: "src/contact.njk"
+        label: "Contact"
+        name: "contact"
+        format: "frontmatter"
+        fields:
+          - { label: "SEO title", name: "title", widget: "string" }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Hero title", name: "heroTitle", widget: "string" }
+          - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
+          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
+
+  - name: "rooms-data"
+    label: "Rooms (prices & photos)"
+    files:
+      - file: "src/_data/rooms.json"
+        label: "Rooms"
+        name: "rooms"
+        fields:
+          - label: "Rooms"
+            name: "rooms"
+            widget: "list"
+            summary: "{{name}} — €{{price}}/night"
+            fields:
+              - { label: "ID (do not change)", name: "id", widget: "string" }
+              - { label: "Badge (e.g. Sea view)", name: "tag", widget: "string" }
+              - { label: "Room name", name: "name", widget: "string" }
+              - { label: "Price per night (EUR)", name: "price", widget: "number", value_type: "int" }
+              - { label: "Capacity text", name: "capacity", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Photos"
+                name: "images"
+                widget: "list"
+                field: { label: "Photo", name: "image", widget: "image" }
+
+  - name: "camps-data"
+    label: "Surf Camp dates & prices"
+    files:
+      - file: "src/_data/camps.json"
+        label: "Camps"
+        name: "camps"
+        fields:
+          - label: "Camps"
+            name: "camps"
+            widget: "list"
+            summary: "{{dates}} — €{{price}}"
+            fields:
+              - { label: "Dates (text)", name: "dates", widget: "string" }
+              - { label: "Nights info", name: "nights", widget: "string" }
+              - { label: "Price (EUR)", name: "price", widget: "number", value_type: "int" }
+              - { label: "Was price / strikethrough (EUR)", name: "wasPrice", widget: "number", value_type: "int" }

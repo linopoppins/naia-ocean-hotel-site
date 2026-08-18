@@ -1,252 +1,193 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Surf Camp, Naia Ocean Hotel · Midigama, Sri Lanka</title>
-<meta name="description" content="10-11 day surf camp at Naia Ocean Hotel, Midigama, Sri Lanka: ocean-front stay, daily coaching with video review, small groups. Early bird from €900.">
-<link rel="canonical" href="https://naia-ocean-hotel.example/surfcamp.html">
-<link rel="icon" href="assets/images/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-
-<meta property="og:title" content="Surf Camp, Naia Ocean Hotel · Midigama">
-<meta property="og:type" content="website">
-<meta property="og:description" content="10-11 day surf camp at Naia Ocean Hotel, Midigama: ocean-front stay, daily coaching with video review, small groups. Early bird from €900.">
-<meta property="og:url" content="https://naia-ocean-hotel.example/surfcamp.html">
-<meta property="og:site_name" content="Naia Ocean Hotel">
-<meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://naia-ocean-hotel.example/assets/images/ohana/action-1.webp">
-<meta property="og:image:alt" content="Surf Camp, Naia Ocean Hotel · Midigama, Sri Lanka">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Surf Camp, Naia Ocean Hotel · Midigama, Sri Lanka">
-<meta name="twitter:description" content="10-11 day surf camp at Naia Ocean Hotel, Midigama: ocean-front stay, daily coaching with video review, small groups. Early bird from €900.">
-<meta name="twitter:image" content="https://naia-ocean-hotel.example/assets/images/ohana/action-1.webp">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Dancing+Script:wght@500;600&display=swap">
-<link rel="preconnect" href="https://open.er-api.com">
-<link rel="stylesheet" href="assets/styles.css">
-<style>
-  .highlights{display:grid;grid-template-columns:repeat(5,1fr);gap:1.2rem}
-  .highlight{text-align:center;padding:1.6rem 1rem}
-  .highlight__ico{width:44px;height:44px;margin:0 auto .9rem;color:var(--terracotta)}
-  .highlight__ico svg{width:100%;height:100%}
-  .highlight h3{font-size:1.05rem;font-weight:600;font-family:var(--sans);color:var(--ink)}
-  .highlight p{font-size:.86rem;color:var(--ink-soft);margin-top:.4rem;font-weight:300}
-  .camps{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.4rem,2.5vw,2.2rem)}
-  .camp{background:var(--card);border-radius:var(--radius-lg);overflow:hidden;box-shadow:0 1px 0 var(--line-soft);display:flex;flex-direction:column}
-  .camp__media{position:relative;aspect-ratio:16/10}
-  .camp__media image-slot{width:100%;height:100%}
-  .camp__badge{position:absolute;top:1rem;left:1rem;z-index:3;background:var(--terracotta);color:#fff;
-    font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:.45rem .85rem;border-radius:100px}
-  .camp__body{padding:1.8rem 1.8rem 2rem}
-  .camp__dates{font-family:var(--serif);font-size:1.5rem;color:var(--ocean-deep)}
-  .camp__nights{font-size:.85rem;color:var(--ink-soft);margin-top:.2rem}
-  .camp__price{display:flex;align-items:baseline;gap:.5rem;margin-top:1.1rem}
-  .camp__price .num{font-family:var(--serif);font-size:2.2rem;color:var(--terracotta);line-height:1}
-  .camp__price .was{font-size:.9rem;color:var(--ink-soft);text-decoration:line-through}
-  .camp__incl{margin-top:1.2rem;display:flex;flex-direction:column;gap:.55rem}
-  .camp__incl li{display:flex;gap:.6rem;font-size:.92rem;color:var(--ink-soft);font-weight:300}
-  .camp__incl svg{width:16px;height:16px;flex:none;margin-top:.2rem;color:var(--leaf)}
-  .camp__foot{display:flex;gap:.8rem;margin-top:1.6rem;flex-wrap:wrap}
-  @media(max-width:900px){.highlights{grid-template-columns:1fr 1fr 1fr}.camps{grid-template-columns:1fr}}
-  @media(max-width:560px){.highlights{grid-template-columns:1fr 1fr}}
-</style>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://naia-ocean-hotel.example/index.html"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Surf Camp",
-      "item": "https://naia-ocean-hotel.example/surfcamp.html"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What level do I need for the camp?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Complete beginners to solid intermediates. We split the group by level for coaching and match everyone to a spot they can actually surf well."
+---
+layout: base.njk
+title: "Surf Camp, Naia Ocean Hotel · Midigama, Sri Lanka"
+description: "10-11 day surf camp at Naia Ocean Hotel, Midigama, Sri Lanka: ocean-front stay, daily coaching with video review, small groups. Early bird from €900."
+ogTitle: "Surf Camp, Naia Ocean Hotel · Midigama"
+ogDescription: "10-11 day surf camp at Naia Ocean Hotel, Midigama: ocean-front stay, daily coaching with video review, small groups. Early bird from €900."
+ogImage: "https://naia-ocean-hotel.example/assets/images/ohana/action-1.webp"
+activePage: "surfcamp"
+screenLabel: "Surf Camp"
+showCurrency: true
+extraHead: |
+  <style>
+    .highlights{display:grid;grid-template-columns:repeat(5,1fr);gap:1.2rem}
+    .highlight{text-align:center;padding:1.6rem 1rem}
+    .highlight__ico{width:44px;height:44px;margin:0 auto .9rem;color:var(--terracotta)}
+    .highlight__ico svg{width:100%;height:100%}
+    .highlight h3{font-size:1.05rem;font-weight:600;font-family:var(--sans);color:var(--ink)}
+    .highlight p{font-size:.86rem;color:var(--ink-soft);margin-top:.4rem;font-weight:300}
+    .camps{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.4rem,2.5vw,2.2rem)}
+    .camp{background:var(--card);border-radius:var(--radius-lg);overflow:hidden;box-shadow:0 1px 0 var(--line-soft);display:flex;flex-direction:column}
+    .camp__media{position:relative;aspect-ratio:16/10}
+    .camp__media image-slot{width:100%;height:100%}
+    .camp__badge{position:absolute;top:1rem;left:1rem;z-index:3;background:var(--terracotta);color:#fff;
+      font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:.45rem .85rem;border-radius:100px}
+    .camp__body{padding:1.8rem 1.8rem 2rem}
+    .camp__dates{font-family:var(--serif);font-size:1.5rem;color:var(--ocean-deep)}
+    .camp__nights{font-size:.85rem;color:var(--ink-soft);margin-top:.2rem}
+    .camp__price{display:flex;align-items:baseline;gap:.5rem;margin-top:1.1rem}
+    .camp__price .num{font-family:var(--serif);font-size:2.2rem;color:var(--terracotta);line-height:1}
+    .camp__price .was{font-size:.9rem;color:var(--ink-soft);text-decoration:line-through}
+    .camp__incl{margin-top:1.2rem;display:flex;flex-direction:column;gap:.55rem}
+    .camp__incl li{display:flex;gap:.6rem;font-size:.92rem;color:var(--ink-soft);font-weight:300}
+    .camp__incl svg{width:16px;height:16px;flex:none;margin-top:.2rem;color:var(--leaf)}
+    .camp__foot{display:flex;gap:.8rem;margin-top:1.6rem;flex-wrap:wrap}
+    @media(max-width:900px){.highlights{grid-template-columns:1fr 1fr 1fr}.camps{grid-template-columns:1fr}}
+    @media(max-width:560px){.highlights{grid-template-columns:1fr 1fr}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://naia-ocean-hotel.example/index.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Surf Camp",
+        "item": "https://naia-ocean-hotel.example/surfcamp.html"
       }
-    },
-    {
-      "@type": "Question",
-      "name": "How many people per camp?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We keep camps small, a handful of guests, not a crowd, so coaching stays personal."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is airport transfer included?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, pick-up from Colombo (CMB) on your arrival day is included for camp bookings."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I book the camp solo?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Most guests come solo and pair up with roommates from the group, or ask about the solo room upgrade."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if I want to stay longer?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Extra nights before or after the camp are easy to add at our standard room rate, just ask when you enquire."
-      }
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "Surf Camp Sri Lanka — Naia Ocean Hotel",
-  "startDate": "2026-11-12",
-  "endDate": "2026-11-22",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "location": {
-    "@type": "Place",
-    "name": "Naia Ocean Hotel",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Midigama",
-      "addressRegion": "Southern Province",
-      "addressCountry": "LK"
-    }
-  },
-  "image": "https://naia-ocean-hotel.example/assets/images/ohana/sri-lanka-1.webp",
-  "description": "Surf camp at Naia Ocean Hotel, Midigama: daily coaching with video analysis, ocean-front stay, small groups.",
-  "offers": {
-    "@type": "Offer",
-    "price": "900",
-    "priceCurrency": "EUR",
-    "url": "https://naia-ocean-hotel.example/surfcamp.html?camp=nov-2026",
-    "availability": "https://schema.org/InStock",
-    "validFrom": "2026-08-03"
-  },
-  "organizer": {
-    "@type": "Organization",
-    "name": "Naia Ocean Hotel",
-    "url": "https://naia-ocean-hotel.example/index.html"
+    ]
   }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "New Year's Eve Surf Camp — Naia Ocean Hotel",
-  "startDate": "2026-12-26",
-  "endDate": "2027-01-06",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "location": {
-    "@type": "Place",
-    "name": "Naia Ocean Hotel",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Midigama",
-      "addressRegion": "Southern Province",
-      "addressCountry": "LK"
-    }
-  },
-  "image": "https://naia-ocean-hotel.example/assets/images/ohana/sri-lanka-2.webp",
-  "description": "Surf camp at Naia Ocean Hotel, Midigama: daily coaching with video analysis, ocean-front stay, small groups.",
-  "offers": {
-    "@type": "Offer",
-    "price": "900",
-    "priceCurrency": "EUR",
-    "url": "https://naia-ocean-hotel.example/surfcamp.html?camp=dec-2026",
-    "availability": "https://schema.org/InStock",
-    "validFrom": "2026-08-03"
-  },
-  "organizer": {
-    "@type": "Organization",
-    "name": "Naia Ocean Hotel",
-    "url": "https://naia-ocean-hotel.example/index.html"
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What level do I need for the camp?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Complete beginners to solid intermediates. We split the group by level for coaching and match everyone to a spot they can actually surf well."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many people per camp?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We keep camps small, a handful of guests, not a crowd, so coaching stays personal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is airport transfer included?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, pick-up from Colombo (CMB) on your arrival day is included for camp bookings."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I book the camp solo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Most guests come solo and pair up with roommates from the group, or ask about the solo room upgrade."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What if I want to stay longer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Extra nights before or after the camp are easy to add at our standard room rate, just ask when you enquire."
+        }
+      }
+    ]
   }
-}
-</script>
-</head>
-<body>
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Surf Camp Sri Lanka — Naia Ocean Hotel",
+    "startDate": "2026-11-12",
+    "endDate": "2026-11-22",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+      "@type": "Place",
+      "name": "Naia Ocean Hotel",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Midigama",
+        "addressRegion": "Southern Province",
+        "addressCountry": "LK"
+      }
+    },
+    "image": "https://naia-ocean-hotel.example/assets/images/ohana/sri-lanka-1.webp",
+    "description": "Surf camp at Naia Ocean Hotel, Midigama: daily coaching with video analysis, ocean-front stay, small groups.",
+    "offers": {
+      "@type": "Offer",
+      "price": "900",
+      "priceCurrency": "EUR",
+      "url": "https://naia-ocean-hotel.example/surfcamp.html?camp=nov-2026",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-08-03"
+    },
+    "organizer": {
+      "@type": "Organization",
+      "name": "Naia Ocean Hotel",
+      "url": "https://naia-ocean-hotel.example/index.html"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "New Year's Eve Surf Camp — Naia Ocean Hotel",
+    "startDate": "2026-12-26",
+    "endDate": "2027-01-06",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+      "@type": "Place",
+      "name": "Naia Ocean Hotel",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Midigama",
+        "addressRegion": "Southern Province",
+        "addressCountry": "LK"
+      }
+    },
+    "image": "https://naia-ocean-hotel.example/assets/images/ohana/sri-lanka-2.webp",
+    "description": "Surf camp at Naia Ocean Hotel, Midigama: daily coaching with video analysis, ocean-front stay, small groups.",
+    "offers": {
+      "@type": "Offer",
+      "price": "900",
+      "priceCurrency": "EUR",
+      "url": "https://naia-ocean-hotel.example/surfcamp.html?camp=dec-2026",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-08-03"
+    },
+    "organizer": {
+      "@type": "Organization",
+      "name": "Naia Ocean Hotel",
+      "url": "https://naia-ocean-hotel.example/index.html"
+    }
+  }
+  </script>
+permalink: "/surfcamp.html"
+heroTitle: "Surf camp, Midigama."
+heroSubtitle: "10 nights by the reef, daily coaching, video review and a small crew of people who came for the same reason you did."
+---
 
-<header class="nav" data-screen-label="Surf Camp">
-  <div class="nav__inner">
-    <a href="index.html" class="brand" aria-label="Naia Ocean Hotel, home">
-      <img src="assets/images/logo-naia-transparent.png" class="brand__logo" alt="Na&#239;a Ocean House" width="90" height="90">
-    </a>
-    <nav class="nav__links" aria-label="Primary">
-      <a href="rooms.html" data-i18n="nav.rooms">Rooms</a>
-      <a href="surf.html" data-i18n="nav.surf">Surf</a>
-      <a href="surfcamp.html" class="is-active" data-i18n="nav.surfcamp">Surf Camp</a>
-      <a href="host-your-retreat.html" data-i18n="nav.retreat">Host Your Retreat</a>
-      <a href="yoga.html" data-i18n="nav.yoga">Yoga</a>
-      <a href="about.html" data-i18n="nav.about">About</a>
-      <a href="contact.html" data-i18n="nav.contact">Contact</a>
-    </nav>
-    <div class="nav__right">
-      <div class="curr">
-        <button class="curr__btn" type="button" aria-label="Change currency"><span data-curr-current>EUR</span><svg viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-        <div class="curr__menu" data-curr-menu><div class="curr__note" data-curr-updated>Estimated conversion</div></div>
-      </div>
-      <div class="lang"><button class="lang__btn" type="button" aria-label="Change language"><span data-lang-current>EN</span><svg viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="lang__menu" data-lang-menu></div></div>
-      <a href="book.html" class="btn btn--primary btn--sm" data-i18n="nav.book">Book now</a>
-      <button class="nav__toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
-    </div>
-  </div>
-</header>
-
-<div class="drawer">
-  <div class="drawer__scrim" data-drawer-close></div>
-  <div class="drawer__panel">
-    <button class="drawer__close" data-drawer-close aria-label="Close menu">&times;</button>
-    <nav class="drawer__links">
-      <a href="rooms.html" data-drawer-close data-i18n="nav.rooms">Rooms</a>
-      <a href="surf.html" data-drawer-close data-i18n="nav.surf">Surf</a>
-      <a href="surfcamp.html" data-drawer-close data-i18n="nav.surfcamp">Surf Camp</a>
-      <a href="host-your-retreat.html" data-drawer-close data-i18n="nav.retreat">Host Your Retreat</a>
-      <a href="yoga.html" data-drawer-close data-i18n="nav.yoga">Yoga</a>
-      <a href="about.html" data-drawer-close data-i18n="nav.about">About</a>
-      <a href="contact.html" data-drawer-close data-i18n="nav.contact">Contact</a>
-      <a href="book.html" data-drawer-close data-i18n="nav.book">Book now</a>
-    </nav>
-  </div>
-</div>
 
 <!-- HERO -->
 <section class="pagehero">
   <div class="pagehero__media"><image-slot fetchpriority="high" alt="Group surf lesson, line-up at Lazy Right" id="camp-hero" src="assets/images/ohana/action-1.webp" placeholder="Group surf lesson, line-up at Lazy Right" fit="cover"></image-slot></div>
   <div class="pagehero__inner">
     <p class="crumb"><a href="index.html" data-i18n="nav.home">Home</a> · <span data-i18n="nav.surfcamp">Surf Camp</span></p>
-    <h1 data-i18n="camp.hero.title">Surf camp, Midigama.</h1>
-    <p class="pagehero__sub" data-i18n="camp.hero.sub">10 nights by the reef, daily coaching, video review and a small crew of people who came for the same reason you did.</p>
+    <h1 data-i18n="camp.hero.title">{{ heroTitle | safe }}</h1>
+    <p class="pagehero__sub" data-i18n="camp.hero.sub">{{ heroSubtitle }}</p>
   </div>
 </section>
 
@@ -302,9 +243,9 @@
           <image-slot loading="lazy" alt="Surf camp group, sunset session" id="camp-1" src="assets/images/ohana/sri-lanka-1.webp" placeholder="Surf camp group, sunset session" fit="cover"></image-slot>
         </div>
         <div class="camp__body">
-          <div class="camp__dates">12 – 22 Nov 2026</div>
-          <div class="camp__nights" data-i18n="camp.nights10">10 nights · start of season</div>
-          <div class="camp__price"><span class="num" data-price="900">&euro;900</span><span class="was" data-price="990">&euro;990</span></div>
+          <div class="camp__dates">{{ camps[0].dates }}</div>
+          <div class="camp__nights" data-i18n="camp.nights10">{{ camps[0].nights }}</div>
+          <div class="camp__price"><span class="num" data-price="{{ camps[0].price }}">&euro;{{ camps[0].price }}</span><span class="was" data-price="{{ camps[0].wasPrice }}">&euro;{{ camps[0].wasPrice }}</span></div>
           <ul class="camp__incl">
             <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l4 4 10-10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="camp.incl.coaching">Professional surf coaching with video analysis</span></li>
             <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l4 4 10-10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="camp.incl.oceanfront">Ocean front location</span></li>
@@ -324,9 +265,9 @@
           <image-slot loading="lazy" alt="New Year surf camp, beach bonfire" id="camp-2" src="assets/images/ohana/sri-lanka-2.webp" placeholder="New Year surf camp, beach bonfire" fit="cover"></image-slot>
         </div>
         <div class="camp__body">
-          <div class="camp__dates">26 Dec 2026 – 6 Jan 2027</div>
-          <div class="camp__nights" data-i18n="camp.nights11">11 nights · New Year camp</div>
-          <div class="camp__price"><span class="num" data-price="900">&euro;900</span><span class="was" data-price="990">&euro;990</span></div>
+          <div class="camp__dates">{{ camps[1].dates }}</div>
+          <div class="camp__nights" data-i18n="camp.nights11">{{ camps[1].nights }}</div>
+          <div class="camp__price"><span class="num" data-price="{{ camps[1].price }}">&euro;{{ camps[1].price }}</span><span class="was" data-price="{{ camps[1].wasPrice }}">&euro;{{ camps[1].wasPrice }}</span></div>
           <ul class="camp__incl">
             <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l4 4 10-10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="camp.incl.coaching">Professional surf coaching with video analysis</span></li>
             <li><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l4 4 10-10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-i18n="camp.incl.oceanfront">Ocean front location</span></li>
@@ -513,27 +454,3 @@
   </div>
 </section>
 
-<footer class="footer">
-  <div class="wrap">
-    <div class="footer__top">
-      <div class="footer__brand">
-        <a href="index.html" class="brand"><img src="assets/images/logo-naia-transparent.png" class="brand__logo" alt="Na&#239;a Ocean House" width="90" height="90"></a>
-        <p class="footer__tag" data-i18n="footer.tag">A small house by the sea in Midigama.</p>
-      </div>
-      <div class="footer__col"><h3 data-i18n="footer.explore">Explore</h3><ul><li><a href="rooms.html" data-i18n="nav.rooms">Rooms</a></li><li><a href="surf.html" data-i18n="nav.surf">Surf</a></li><li><a href="surfcamp.html" data-i18n="nav.surfcamp">Surf Camp</a></li><li><a href="host-your-retreat.html" data-i18n="nav.retreat">Host Your Retreat</a></li><li><a href="yoga.html" data-i18n="nav.yoga">Yoga</a></li><li><a href="about.html" data-i18n="nav.about">About</a></li></ul></div>
-      <div class="footer__col"><h3 data-i18n="footer.stay">Stay</h3><ul><li><a href="book.html" data-i18n="nav.book">Book now</a></li><li><a href="rooms.html" data-i18n="home.rooms.eyebrow">Rooms &amp; rates</a></li><li><a href="contact.html" data-i18n="nav.contact">Contact</a></li></ul></div>
-      <div class="footer__col"><h3 data-i18n="footer.reach">Reach us</h3><ul><li>Midigama, Sri Lanka</li><li><a href="mailto:hello@naiaocean.com">hello@naiaocean.com</a></li><li><a href="#" data-wa>WhatsApp</a></li></ul>
-        <div class="footer__social"><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg></a><a href="#" data-wa aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.8 5-1.3A10 10 0 1012 2zm0 18a8 8 0 01-4-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1112 20zm4.4-5.6c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.8 1-.3.2-.5.1a6.5 6.5 0 01-1.9-1.2 7.2 7.2 0 01-1.3-1.7c-.1-.2 0-.4.1-.5l.4-.4.2-.4v-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5a.9.9 0 00-.7.3 2.8 2.8 0 00-.9 2.1 4.9 4.9 0 001 2.6 11 11 0 004.3 3.8c.6.3 1.1.4 1.5.5a3.6 3.6 0 001.6.1 2.7 2.7 0 001.8-1.3 2.2 2.2 0 00.2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a></div>
-      </div>
-    </div>
-    <div class="footer__bottom"><span data-i18n="footer.rights">© 2026 Naia Ocean Hotel, Midigama, Sri Lanka.</span><span data-i18n="footer.made">Made with salt &amp; sunlight.</span></div>
-  </div>
-</footer>
-
-<a class="wa" data-wa href="#" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.8 5-1.3A10 10 0 1012 2zm0 18a8 8 0 01-4-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1112 20zm4.4-5.6c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.8 1-.3.2-.5.1a6.5 6.5 0 01-1.9-1.2 7.2 7.2 0 01-1.3-1.7c-.1-.2 0-.4.1-.5l.4-.4.2-.4v-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5a.9.9 0 00-.7.3 2.8 2.8 0 00-.9 2.1 4.9 4.9 0 001 2.6 11 11 0 004.3 3.8c.6.3 1.1.4 1.5.5a3.6 3.6 0 001.6.1 2.7 2.7 0 001.8-1.3 2.2 2.2 0 00.2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg><span class="wa__label" data-i18n="wa.label">Chat with us on WhatsApp</span></a>
-
-<script src="assets/i18n.js"></script>
-<script src="assets/image-slot.js"></script>
-<script src="assets/site.js"></script>
-</body>
-</html>

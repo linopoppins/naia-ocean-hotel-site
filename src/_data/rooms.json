@@ -1,0 +1,80 @@
+[
+  {
+    "id": "deluxe",
+    "tag": "Sea view",
+    "name": "Deluxe Sea View",
+    "price": 35,
+    "capacity": "2 guests · 22 m²",
+    "description": "The largest room in the house. An extra-large double bed, a private kitchenette, and a terrace where the sea fills the horizon from your first cup of the day.",
+    "images": [
+      "assets/images/deluxe-1.webp",
+      "assets/images/deluxe-2.webp",
+      "assets/images/deluxe-3.webp"
+    ]
+  },
+  {
+    "id": "double-garden",
+    "tag": "Garden view",
+    "name": "Garden Double",
+    "price": 33,
+    "capacity": "2 guests · 17 m²",
+    "description": "Tucked behind the garden, quieter and cooler. A double bed, a private terrace opening onto the greenery, and a kitchenette for your own unhurried rhythm.",
+    "images": [
+      "assets/images/garden-double-1.webp",
+      "assets/images/garden-double-2.webp",
+      "assets/images/garden-double-3.webp"
+    ]
+  },
+  {
+    "id": "double-sea",
+    "tag": "Sea view",
+    "name": "Double Sea View",
+    "price": 30,
+    "capacity": "2 guests · 15 m²",
+    "description": "Wake up to the water. A double room with a sea-view terrace, a private kitchenette for slow mornings, and a bathroom all to yourself.",
+    "images": [
+      "assets/images/double-sea-1.webp",
+      "assets/images/double-sea-2.webp",
+      "assets/images/double-sea-3.webp"
+    ]
+  },
+  {
+    "id": "queen",
+    "tag": "Courtyard view",
+    "name": "Standard Queen",
+    "price": 25,
+    "capacity": "2 guests · 22 m²",
+    "description": "One of the most spacious rooms in the house. A double bed, a full private kitchenette, and a quiet courtyard terrace for reading or afternoon rest.",
+    "images": [
+      "assets/images/queen-1.webp",
+      "assets/images/queen-2.webp",
+      "assets/images/queen-3.webp"
+    ]
+  },
+  {
+    "id": "twin",
+    "tag": "Garden view",
+    "name": "Twin Room",
+    "price": 25,
+    "capacity": "2 guests · 14 m²",
+    "description": "Two single beds, a balcony and a private kitchenette. The right room for friends travelling together who want their own space without paying double.",
+    "images": [
+      "assets/images/twin-1.webp",
+      "assets/images/twin-2.webp",
+      "assets/images/twin-3.webp"
+    ]
+  },
+  {
+    "id": "economy-twin",
+    "tag": "Best value",
+    "name": "Economy Twin",
+    "price": 22,
+    "capacity": "2 guests · 14 m²",
+    "description": "The most honest room in the house. Two single beds, a courtyard terrace, a private kitchenette, everything you need, nothing you don't.",
+    "images": [
+      "assets/images/eco-twin-1.webp",
+      "assets/images/eco-twin-2.webp",
+      "assets/images/eco-twin-3.webp"
+    ]
+  }
+]
