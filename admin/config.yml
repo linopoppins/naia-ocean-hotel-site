@@ -12,6 +12,8 @@ public_folder: "assets/images/uploads"
 collections:
   - name: "pages"
     label: "Page text"
+    editor:
+      preview: false
     files:
       - file: "src/index.njk"
         label: "Home"
