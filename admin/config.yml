@@ -16,112 +16,102 @@ collections:
       - file: "src/index.njk"
         label: "Home"
         name: "index"
-        format: "frontmatter"
+        format: "yaml-frontmatter"
         fields:
           - { label: "SEO title", name: "title", widget: "string" }
           - { label: "SEO description", name: "description", widget: "text" }
           - { label: "Hero title (can use <em>word</em> for italics)", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
-          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
 
       - file: "src/rooms.njk"
         label: "Rooms & Rates"
         name: "rooms-page"
-        format: "frontmatter"
+        format: "yaml-frontmatter"
         fields:
           - { label: "SEO title", name: "title", widget: "string" }
           - { label: "SEO description", name: "description", widget: "text" }
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
-          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
 
       - file: "src/surf.njk"
         label: "Surf"
         name: "surf"
-        format: "frontmatter"
+        format: "yaml-frontmatter"
         fields:
           - { label: "SEO title", name: "title", widget: "string" }
           - { label: "SEO description", name: "description", widget: "text" }
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
-          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
 
       - file: "src/surfcamp.njk"
         label: "Surf Camp"
         name: "surfcamp"
-        format: "frontmatter"
+        format: "yaml-frontmatter"
         fields:
           - { label: "SEO title", name: "title", widget: "string" }
           - { label: "SEO description", name: "description", widget: "text" }
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
-          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
 
       - file: "src/surf-camps-network.njk"
         label: "Choose Your Camp (Ohana network)"
         name: "surf-camps-network"
-        format: "frontmatter"
+        format: "yaml-frontmatter"
         fields:
           - { label: "SEO title", name: "title", widget: "string" }
           - { label: "SEO description", name: "description", widget: "text" }
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
-          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
 
       - file: "src/host-your-retreat.njk"
         label: "Host Your Retreat"
         name: "host-your-retreat"
-        format: "frontmatter"
+        format: "yaml-frontmatter"
         fields:
           - { label: "SEO title", name: "title", widget: "string" }
           - { label: "SEO description", name: "description", widget: "text" }
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
-          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
 
       - file: "src/yoga.njk"
         label: "Yoga"
         name: "yoga"
-        format: "frontmatter"
+        format: "yaml-frontmatter"
         fields:
           - { label: "SEO title", name: "title", widget: "string" }
           - { label: "SEO description", name: "description", widget: "text" }
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
-          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
 
       - file: "src/about.njk"
         label: "About"
         name: "about"
-        format: "frontmatter"
+        format: "yaml-frontmatter"
         fields:
           - { label: "SEO title", name: "title", widget: "string" }
           - { label: "SEO description", name: "description", widget: "text" }
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
-          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
 
       - file: "src/book.njk"
         label: "Book"
         name: "book"
-        format: "frontmatter"
+        format: "yaml-frontmatter"
         fields:
           - { label: "SEO title", name: "title", widget: "string" }
           - { label: "SEO description", name: "description", widget: "text" }
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
-          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
 
       - file: "src/contact.njk"
         label: "Contact"
         name: "contact"
-        format: "frontmatter"
+        format: "yaml-frontmatter"
         fields:
           - { label: "SEO title", name: "title", widget: "string" }
           - { label: "SEO description", name: "description", widget: "text" }
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
-          - { label: "Page content (do not edit — layout code)", name: "body", widget: "code", default_language: "html", allow_language_selection: false, output_code_only: true }
 
   - name: "rooms-data"
     label: "Rooms (prices & photos)"
