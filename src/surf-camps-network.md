@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+templateEngineOverride: njk
 title: "Choose your next surf camp · Naia Ocean Hotel, Midigama, Sri Lanka"
 description: "Beyond Midigama: surf camps in Sri Lanka, Morocco and Madeira, run by our partner Ohana Surfing."
 ogTitle: "Choose your next surf camp, with Ohana Surfing"

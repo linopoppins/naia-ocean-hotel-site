@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+templateEngineOverride: njk
 title: "Yoga, Naia Ocean Hotel · Midigama, Sri Lanka"
 description: "A rooftop shala open to the sky and the sound of the sea. Daily vinyasa and yin, weekend and week-long retreats at Naia Ocean Hotel, Midigama, Sri Lanka."
 ogTitle: "Yoga at Naia, Naia Ocean Hotel"

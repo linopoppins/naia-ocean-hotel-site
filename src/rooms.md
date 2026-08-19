@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+templateEngineOverride: njk
 title: "Rooms & Rates — Naia Ocean Hotel · Midigama, Sri Lanka"
 description: "Six rooms at Naia Ocean Hotel in Midigama, Sri Lanka — sea view doubles, garden doubles and twin rooms. Each with a private kitchenette, private bathroom and terrace, steps from Midigama beach."
 ogTitle: "Rooms & Rates, Naia Ocean Hotel"

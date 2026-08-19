@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+templateEngineOverride: njk
 title: "Surf Camp, Naia Ocean Hotel · Midigama, Sri Lanka"
 description: "10-11 day surf camp at Naia Ocean Hotel, Midigama, Sri Lanka: ocean-front stay, daily coaching with video review, small groups. Early bird from €900."
 ogTitle: "Surf Camp, Naia Ocean Hotel · Midigama"

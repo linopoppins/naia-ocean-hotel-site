@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+templateEngineOverride: njk
 title: "Contact & getting here, Naia Ocean Hotel · Midigama, Sri Lanka"
 description: "Questions about a stay, a swell, or how to find us? Contact Naia Ocean Hotel in Midigama, Sri Lanka, and find your way from Colombo airport."
 ogTitle: "Contact & getting here, Naia Ocean Hotel"

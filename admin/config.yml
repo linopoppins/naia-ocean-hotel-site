@@ -15,7 +15,7 @@ collections:
     editor:
       preview: false
     files:
-      - file: "src/index.njk"
+      - file: "src/index.md"
         label: "Home"
         name: "index"
         format: "yaml-frontmatter"
@@ -25,7 +25,7 @@ collections:
           - { label: "Hero title (can use <em>word</em> for italics)", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
 
-      - file: "src/rooms.njk"
+      - file: "src/rooms.md"
         label: "Rooms & Rates"
         name: "rooms-page"
         format: "yaml-frontmatter"
@@ -35,7 +35,7 @@ collections:
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
 
-      - file: "src/surf.njk"
+      - file: "src/surf.md"
         label: "Surf"
         name: "surf"
         format: "yaml-frontmatter"
@@ -45,7 +45,7 @@ collections:
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
 
-      - file: "src/surfcamp.njk"
+      - file: "src/surfcamp.md"
         label: "Surf Camp"
         name: "surfcamp"
         format: "yaml-frontmatter"
@@ -55,7 +55,7 @@ collections:
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
 
-      - file: "src/surf-camps-network.njk"
+      - file: "src/surf-camps-network.md"
         label: "Choose Your Camp (Ohana network)"
         name: "surf-camps-network"
         format: "yaml-frontmatter"
@@ -65,7 +65,7 @@ collections:
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
 
-      - file: "src/host-your-retreat.njk"
+      - file: "src/host-your-retreat.md"
         label: "Host Your Retreat"
         name: "host-your-retreat"
         format: "yaml-frontmatter"
@@ -75,7 +75,7 @@ collections:
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
 
-      - file: "src/yoga.njk"
+      - file: "src/yoga.md"
         label: "Yoga"
         name: "yoga"
         format: "yaml-frontmatter"
@@ -85,7 +85,7 @@ collections:
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
 
-      - file: "src/about.njk"
+      - file: "src/about.md"
         label: "About"
         name: "about"
         format: "yaml-frontmatter"
@@ -95,7 +95,7 @@ collections:
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
 
-      - file: "src/book.njk"
+      - file: "src/book.md"
         label: "Book"
         name: "book"
         format: "yaml-frontmatter"
@@ -105,7 +105,7 @@ collections:
           - { label: "Hero title", name: "heroTitle", widget: "string" }
           - { label: "Hero subtitle", name: "heroSubtitle", widget: "text" }
 
-      - file: "src/contact.njk"
+      - file: "src/contact.md"
         label: "Contact"
         name: "contact"
         format: "yaml-frontmatter"

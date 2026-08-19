@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+templateEngineOverride: njk
 title: "Naia Ocean Hotel, Surf & Yoga Guest House · Midigama, Sri Lanka"
 description: "A small surf & yoga guest house on Sri Lanka's south coast. Wake to the surf, practice yoga at sunrise, and let the days run on ocean time."
 ogTitle: "Naia Ocean Hotel, Surf & Yoga · Midigama"

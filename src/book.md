@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+templateEngineOverride: njk
 title: "Book your stay, Naia Ocean Hotel · Midigama, Sri Lanka"
 description: "Check availability and request your stay at Naia Ocean Hotel, Midigama, Sri Lanka. Best rate booked direct, flexible, friendly cancellation."
 ogTitle: "Book your stay, Naia Ocean Hotel"

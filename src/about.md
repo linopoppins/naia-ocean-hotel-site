@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+templateEngineOverride: njk
 title: "Our story, Naia Ocean Hotel · Midigama, Sri Lanka"
 description: "How a surf trip that never really ended turned into a house by the sea in Midigama, Sri Lanka. The people and values behind Naia Ocean Hotel."
 ogTitle: "Our story, Naia Ocean Hotel"

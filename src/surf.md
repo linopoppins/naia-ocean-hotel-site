@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+templateEngineOverride: njk
 title: "Surf, Naia Ocean Hotel · Midigama, Sri Lanka"
 description: "A peeling left across the road and a dozen more within a tuk-tuk ride. Coaching, video sessions and board rental at Naia Ocean Hotel, Midigama, Sri Lanka."
 ogTitle: "Surf Midigama, Naia Ocean Hotel"

@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+templateEngineOverride: njk
 title: "Host Your Retreat, Naia Ocean Hotel · Midigama, Sri Lanka"
 description: "Bring your own group to Naia Ocean Hotel in Midigama, Sri Lanka. Whole-house buyouts for surf & yoga retreats: 6 rooms, private kitchenettes, ocean-front garden, up to 12 guests."
 ogTitle: "Host Your Retreat, Naia Ocean Hotel · Midigama"
