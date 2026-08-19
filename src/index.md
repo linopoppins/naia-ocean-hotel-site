@@ -68,8 +68,9 @@ extraHead: >
 description: A small surf & yoga guest house on Sri Lanka's south coast. Wake to
   the surf, practice yoga at sunrise, and let the days run on ocean time.
 heroTitle: Where the ocean is <em>fifty metres</em> away.
-heroSubtitle: A small surf & yoga house on Sri Lanka's south coast, built for
+heroSubtitle: "A small surf & yoga house on Sri Lanka's south coast, built for
   people who came to ride, breathe, and let the days run on ocean time. time
+  time time "
 activePage: index
 title: Naia Ocean Hotel, Surf & Yoga Guest House · Midigama, Sri Lanka
 ---
