@@ -1,16 +1,16 @@
 ---
-layout: base.njk
+ogTitle: Naia Ocean Hotel, Surf & Yoga · Midigama
+ogImage: https://images.unsplash.com/photo-1517053589573-a5473fadffbd?fm=webp&q=80&w=1200&auto=format&fit=crop
+ogDescription: Where the ocean is fifty metres away. A small surf & yoga house
+  on Sri Lanka's south coast.
+screenLabel: Home
 templateEngineOverride: njk
-title: "Naia Ocean Hotel, Surf & Yoga Guest House · Midigama, Sri Lanka"
-description: "A small surf & yoga guest house on Sri Lanka's south coast. Wake to the surf, practice yoga at sunrise, and let the days run on ocean time."
-ogTitle: "Naia Ocean Hotel, Surf & Yoga · Midigama"
-ogDescription: "Where the ocean is fifty metres away. A small surf & yoga house on Sri Lanka's south coast."
-ogImage: "https://images.unsplash.com/photo-1517053589573-a5473fadffbd?fm=webp&q=80&w=1200&auto=format&fit=crop"
-activePage: "index"
-screenLabel: "Home"
+layout: base.njk
+permalink: /index.html
 showCurrency: true
-extraHead: |
+extraHead: >
   <script type="application/ld+json">
+
   {
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
@@ -63,10 +63,15 @@ extraHead: |
       }
     ]
   }
+
   </script>
-permalink: "/index.html"
-heroTitle: "Where the ocean is <em>fifty metres</em> away."
-heroSubtitle: "A small surf & yoga house on Sri Lanka's south coast, built for people who came to ride, breathe, and let the days run on ocean time."
+description: A small surf & yoga guest house on Sri Lanka's south coast. Wake to
+  the surf, practice yoga at sunrise, and let the days run on ocean time.
+heroTitle: Where the ocean is <em>fifty metres</em> away.
+heroSubtitle: A small surf & yoga house on Sri Lanka's south coast, built for
+  people who came to ride, breathe, and let the days run on ocean time. time
+activePage: index
+title: Naia Ocean Hotel, Surf & Yoga Guest House · Midigama, Sri Lanka
 ---
 
 
